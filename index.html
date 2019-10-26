@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <form class="window__block">
+    <h1>Проверка услуг медицинского страхования</h1>
+    <div class="window__button">
+      <button class="window__button_OMC">ОМС</button>
+      <button class="window__button_DMS">ДМС</button>
+    </div>
+    <div class="input__window__one">
+      <div class="input__window_block">
+      <div class="input__window_wrapper">
+        <input class="input__text_one" type="search" placeholder="Введите номер полиса" />
+        <div class="block__elem">
+          <ul class="input__ul_one"></ul>
+        </div>
+        <p class="input__dataText"></p>
+      </div>
+      <div>
+        <input class="input__text_two" type="search" placeholder="Выберите страховую компанию" />
+        <div class="block__elem_two">
+          <ul class="input__ul_two"></ul>
+        </div>
+        <p class="input__telefon"></p>
+      </div>
+      </div>
+      <div class="input__services_text">
+        <h3>Выберите медицинские услуги</h3>
+        <input class="input__text_fri" type="search" placeholder="Введите запрашиваемую услугу для пациента"  />
+        <div class="block__elem_fri">
+          <ul class="input__ul_fri"></ul>
+        </div>
+        <div class="input__services"></div>
+      </div>
+    </div>
+    <div class="window__block_verify">
+      <button class="windows__btn">Проверить</button>
+      <button class="new__button_search">новый запрос</button>
+    </div>
+  </form>
+  <div class="messeg__error">
+    <h3>Полис с таким <br> номером не обнаружен</h3>
+    <p>Попробуйте изменить данные</p>
+    <button class="messeg__error_off">ОК</button>
+  </div>
+
+
+
+  <script src="js/index.js"></script>
+</body>
+</html>
